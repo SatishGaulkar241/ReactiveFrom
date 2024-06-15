@@ -1,0 +1,109 @@
+<!-- <h2>Get Value Box: </h2>
+<!-- <h1><button (click)="getSubmit(1234,'Satish....!')">Submit</button></h1> -->
+<!-- <button (click)="getValue('a')">Click</button>
+<br>
+<br>
+<input type="text" #box (blur)="getValue(box.value)" placeholder="Enter Your Name">
+
+<h1 (mouseover)="getValue('mouse Over value')">Code Step by step</h1>
+
+<br><br>
+<h1 (mouseleave)="getValue('mouse up here')"> Mouse Over Here </h1> -->
+<!-- 
+<input type="text" #box (blur)="getBoxValue(box.value)" placeholder="Enter Your Name">
+
+<br><br>
+<h1>{{displayval}}</h1> -->
+
+<!-- <input type="text" #box1 (blur)="getboxData(box1.value)" placeholder="Enter Name" >
+<br><br>
+<h1>{{dislayBoxData}}</h1><br><br> -->
+<!-- <button (click)="getcounter('add')">++</button>
+<br>
+<h2>{{count}}</h2>
+<br>
+<button (click)="getcounter('minus')">--</button> -->
+
+<!-- <input type="text" #box2 (keypress)="getinputval(box2.value)" placeholder="Enter Your Name">
+<br>
+<h2>{{inputvalue}}</h2> -->
+
+
+<!-- <input type="text" name="user-name" value={{name}} disabled="falsex">
+<br>
+<input type="text" name="user-name" [value]="name" [disabled]="false"> -->
+<!-- <h1>If Else Condition</h1>
+<button type="button" (click)="hideifalse()">Click</button>
+<h1 *ngIf="show; then ifcondition else elseCondition"></h1>
+<ng-template #ifcondition>
+    <h2>If Condition Show </h2>
+</ng-template>
+<ng-template  #elseCondition>
+    <h2>Else Condition Show</h2>
+</ng-template> -->
+<!-- 
+<h2>Multiple IF Else Condition</h2>
+<button type="button" (click)="colorChangeRed()">Red</button>
+<br>
+<button type="button" (click)="colorChangeBlue()">Blue</button>
+<ng-template [ngIf]="color=='blue'">
+    <h2 style="color: blue;">Blue color</h2>
+</ng-template>
+<ng-template [ngIf]="color=='red'">
+    <h2 style="color: red;">Red Color</h2>
+</ng-template>
+<ng-template [ngIf]="color=='green'">
+    <h2 style="color:green">Green color</h2>
+</ng-template> -->
+<!-- <h2>Switch Case</h2>
+<div [ngSwitch]="color">
+<h2 *ngSwitchCase="'blue'" style="color: blue;">Blue Color</h2>
+<h2 *ngSwitchCase="'red'" style="color: red;">Blue Color</h2>
+<h2 *ngSwitchCase="'black'" style="color: black;">Blue Color</h2>
+<h2 *ngSwitchCase="'Green'" style="color: green;">Green Color</h2>
+<h2 *ngSwitchDefault >Default Color</h2>
+
+</div> -->
+
+
+
+
+
+
+
+
+
+
+<!-- <div [ngSwitch]="color">
+    <h2 *ngSwitchCase="'blue'" style="color: blue;">Blue color</h2>
+    <h2 *ngSwitchCase="'green'" style="color: green;">Green color</h2>
+    <h2 *ngSwitchDefault >Default valaue</h2>
+
+</div> -->
+
+<div>
+    <h2>For Loop</h2>
+    <div *ngFor="let items of userDetails">
+    <ul>
+        <li>{{items.name}}</li>
+        <li>{{items.phone}}</li>
+        <ul *ngFor="let account of items.account">
+            <li>{{account}}</li>
+        </ul> 
+    
+    </ul> 
+    </div>
+</div>
+
+<!-- <button type="button" (click)="toggle()">Click</button>
+<div  *ngIf="isVisible">
+    
+    <br><br>
+    <h2>Hello Toggle Event</h2>
+</div> -->
+
+
+
+
+
+
